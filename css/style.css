@@ -1,0 +1,237 @@
+/* ==== GENERAL STYLES ====*/
+* {
+    box-sizing: border-box;
+}
+  
+h1,h2,h3,ul,ol,p,img {
+    margin-bottom: 1.5rem;
+}
+  
+body {
+    font-family: 'Roboto Serif', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+  
+#kezdő, #szolgáltatások, #galéria, #árlista, #kapcsolat {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+  
+h2 {
+    font-size: 4rem;
+}
+  
+h3 {
+    font-size: 1.5rem;
+}
+
+.tappancs {
+    width: 40px;
+    height: auto;
+}
+
+.right-rotate {
+    transform: rotate(25deg);
+}
+
+.left-rotate {
+    transform: rotate(-25deg);
+}
+
+.end-line {
+    content: "";
+    display: block;
+    height: .1875rem;
+    width: 25vw;
+    margin: 1.5rem auto;
+    background-color: #444349;
+}
+
+.btn-cosmo {
+    color: #C74F78 !important;
+    background-color: #fff;
+    border-color: #C74F78 !important;
+}
+  
+.btn-cosmo:hover {
+    background-color: #C74F78;
+    color: #fff !important;
+    border-color: #adadad;
+}
+
+/* ==== FONT STYLES ==== */
+
+.greatvibes {
+    font-family: 'Great Vibes', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.text-cosmo {
+    color: #C74F78;
+}
+
+.text-cosmo-blue {
+    color: #8dcceb;
+}
+
+.text-cosmo-bg {
+    background-color: #C74F78;
+    color: #fff;
+}
+
+/* ==== NAV STYLES ====*/
+
+.cosmo-nav {
+    background-color: #C74F78;
+}
+
+.cosmo-nav ul {
+    text-align: center;
+}
+
+.cosmo-nav li {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    height: 3rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.cosmo-nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.cosmo-nav a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+
+@media (min-width: 600px) {
+
+    .cosmo-nav li {
+        display: inline-block;
+        border-bottom: none;
+        width: auto;
+        padding-left: 3rem;
+    }
+}
+
+/* ==== KEZDŐ STYLES ====*/
+
+.nyil {
+    width: 10%;
+    height: auto;
+}
+
+#kezdo-kep {
+    width: 70%; 
+    border-radius: 25px 25px 25px 25px; 
+    box-shadow: 2px 2px 5px #C74F78; 
+    margin-bottom: 5rem; 
+    margin-right: -18px;
+    transform: rotate(-5deg);
+}
+
+#kezdo-logo {
+    margin-top: 3rem;
+}
+
+@media (min-width: 768px) {
+    #kezdo-leiras {
+        margin-top: 5rem;
+    }
+
+    .nyil {
+        width: 8%;
+    }
+}
+
+/* ==== SZOLGÁLTATÁSOK STYLES ====*/
+
+.blurb img {
+    height: 7.5rem;
+}
+  
+.blurb h3 {
+    font-weight: 700;
+}
+  
+.blurb div {
+    font-family: 'Mulish', sans-serif;
+}
+
+.blurb {
+    margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+
+    .blurb {
+      display: inline-block;
+      width: 30%;
+      padding: 1.5rem;
+      margin: .5rem;
+      margin-bottom: 3rem;
+    }
+  
+}
+
+/* ==== GALÉRIA STYLES ====*/
+
+#galeria-kep-1 {
+    width: 45%; 
+    border-radius: 25px 25px 25px 25px; 
+    box-shadow: 2px 2px 5px #C74F78; 
+    margin-right: -18px;
+    transform: rotate(-5deg);
+}
+
+#galeria-kep-2 {
+    width: 45%; 
+    border-radius: 25px 25px 25px 25px; 
+    box-shadow: 2px 2px 5px #C74F78; 
+    margin-right: -18px;
+    transform: rotate(5deg);
+}
+
+/* ==== FOOTER STYLES ====*/
+
+.footer-wrapper {
+    width: 100%;
+    height: 10vh;
+    background-color: #606060;
+    text-align: center;
+    color: white;
+    display: table;
+    font-size: 0.8rem;
+}
+.footer-wrapper p {
+    display: table-cell;
+    vertical-align: middle;
+    padding: .5rem 1rem;
+}
+  
+.footer-wrapper small {
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+
+    footer {
+      min-height: 7vh;
+    }
+  
+}
